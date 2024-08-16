@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    background-color: rgb(220, 220, 220);
+    margin: 0;
+}
+
+#button-div {
+    background-color: rgb(2, 70, 2);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+button {
+    background-color: rgb(142, 187, 142);
+    color: rgb(2, 21, 2);
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(142, 187, 142);
+    background-color: rgb(80, 109, 78);
+}
